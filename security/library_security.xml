@@ -10,7 +10,6 @@
         </record>
         <!-- Library Manager Group -->
         <record id="library_group_manager" model="res.groups">
-            <field name="field_name">field_value</field>
             <field name="name" >Manager</field>
             <field name="category_id" ref="base.module_category_services_library" />
             <field name="implied_ids" eval="[(4, ref('library_group_user'))]" />
